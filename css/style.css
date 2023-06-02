@@ -14,39 +14,37 @@ body {
 header {
     width: 100%;
     height: 75px;
+    background-color: blueviolet;
 
 }
 a {
     text-decoration: none;
     cursor: pointer;
+    
+}
+header .titulo {
+    margin-left: 25px;
+    font-size: 25px;
+    color: white;
+}
+header .lema{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(221, 192, 25);
+    font-size: 16px;
+
 }
 header nav {
     display: flex;
     justify-content: flex-end;
+    
 }
-header nav .menu-derecho {
-    width: 200px;
-    height: auto;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-nav .menu-derecho a {
-    margin-right: 16px;
-    color: black;
-}
-nav .menu-derecho .Icono {
-    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+header img{
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-}
-nav .menu-derecho img {
-    border-radius: 50%;
-    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin-right: 50px;
 }
 main {
     margin-top: 150px;
